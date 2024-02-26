@@ -1,0 +1,11 @@
+.third-seccion{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#banner{
+    padding: 0 50px;
+    background-image: url(https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2014/02/imagenes-responsive.png?fit=666%2C370&quality=100&strip=all&ssl=1);
+    height: 55vh;
+    background-size: cover;
+    background-position: center;
+}

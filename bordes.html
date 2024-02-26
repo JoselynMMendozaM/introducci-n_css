@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BORDES</title>
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/0/09/Logotipo_de_el_INTECAP.png">
+    <link rel="stylesheet" href="style-bordes.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header-container">
+        <section class="seccion-menu">
+            <a href="index.html" class="logo"><h2 >FULLSTACK DEV.</h2></a>
+    
+                <input type="checkbox" id="check">
+                <label for="check" class="mostrar-menu"> &#8801</label>
+    
+            <nav class="menu-container">    
+              
+                <a href="index.html">Inicio</a>
+                <a href="estructura-css.html">Estructura de CSS</a>
+                <a href="colores.html">Colores</a>
+                <a href="bordes.html">Bordes</a>
+                <a href="sombreada.html">Sombreada</a>
+                <a href="fondosyopacidad.html">Fodos y opacidad</a>
+                <label for="check" class="esconder-menu"> &#215</label>
+            </nav>
+        </section>
+
+        <section id="banner">
+            <div class="banner-container">
+                <h1><span>bordes en CSS</span></h1>
+
+            </div>
+
+        </section>
+        
+    </header>
+    <main>
+        
+        <section class="first-seccion">
+            <article>
+                <br>
+                <p class="first-content">
+                    En CSS, los bordes son líneas que rodean los elementos HTML para definir su límite visual. Los bordes pueden tener diferentes estilos, colores y grosor.
+                </p>
+                <br>
+                
+            </article>
+            <aside class="logo-intecap">
+    
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Logotipo_de_el_INTECAP.png" alt="Escudo de INTECAP">
+            </aside>
+
+        </section>
+        <div class="second-seccion">
+            <article>
+                <h2>Tipos de Bordes</h2>
+                 <hr>
+                 <br>
+                <ol type="a">
+                    <li>Borde Sólido (solid):</li>
+                        <ul>
+                            <li>Se trata de una línea continua.</li>
+                            <li>Puedes especificar el grosor y el color.</li>
+                        </ul>
+                        <br>
+                        <figure>
+                            <img src="img/b1.png" alt="Ejemplo Borde Sólido (solid).">
+                            <figcaption>Ejemplo Borde Sólido (solid).</figcaption>
+                        </figure>
+                        <br>
+                    <li>Borde Punteado (dotted):</li>
+                        <ul>
+                            <li>Se compone de una serie de puntos.</li>
+                            <li>Es útil para crear bordes más discretos.</li>
+                        </ul>
+                        <br>
+                        <figure>
+                            <img src="img/b2.png" alt="Ejemplo Borde Punteado (dotted).">
+                            <figcaption>Ejemplo Borde Punteado (dotted).</figcaption>
+                        </figure>
+                        <br> 
+                    <li>Borde Segmentado (dashed):</li>
+                        <ul>
+                            <li>Similar al punteado, pero con líneas cortas.</li>
+                            <li>Proporciona un aspecto más interrumpido.</li>
+                        </ul>
+                        <br>
+                        <figure>
+                            <img src="img/b3.png" alt="Ejemplo Borde Segmentado (dashed).">
+                            <figcaption>Ejemplo Borde Segmentado (dashed).</figcaption>
+                        </figure>
+                        <br>
+                    <li>Borde Doble (double):</li>
+                        <ul>
+                            <li>Consiste en dos líneas paralelas.</li>
+                            <li>Puedes especificar el grosor y el color para ambas líneas.</li>
+                        </ul>
+                        <br>
+                        <figure>
+                            <img src="img/b4.png" alt="Ejemplo Borde Doble (double).">
+                            <figcaption>Ejemplo Borde Doble (double).</figcaption>
+                        </figure>
+                        <br>
+                    <li>Borde en Relieve (ridge) y Bajo Relieve (groove):</li>
+                        <ul>
+                            <li>Ridge: Crea un borde que parece sobresalir de la página.</li>
+                            <li>Groove: Crea un borde que parece estar tallado en la página.</li>
+                        </ul>
+                        <br>
+                        <figure>
+                            <img src="img/b5.png" alt="Ejemplo Borde en Relieve (ridge) y Bajo Relieve (groove)..">
+                            <figcaption>Ejemplo Borde en Relieve (ridge) y Bajo Relieve (groove).</figcaption>
+                        </figure>
+                        <br> 
+                    <li>Borde Inset (inset) y Outset (outset):</li>
+                        <ul>
+                            <li>Inset: Similar a groove, pero con un efecto más sutil.</li>
+                            <li>Outset: Similar a ridge, pero con un efecto más sutil.</li>
+                        </ul>
+                        <br>
+                        <figure>
+                            <img src="img/b6.png" alt="Ejemplo Borde Inset (inset) y Outset (outset).">
+                            <figcaption>Ejemplo Borde Inset (inset) y Outset (outset).</figcaption>
+                        </figure>
+                        <br>
+                        
+                </ol>
+            </article>
+        </div>
+        <div class="third-seccion">
+            <article>
+                <h2>Colores de Borde</h2>
+                <hr>
+                <br>
+                <p>
+                    Puedes especificar el color del borde usando nombres de color, valores RGB, valores HEX o cualquier otro método válido para especificar colores en CSS.
+                </p>
+                <br>
+                <figure>
+                    <img src="img/b-color.png" alt="Ejemplo de color en bordes.">
+                    <figcaption>Ejemplo de color en bordes. </figcaption>
+                </figure>
+                <br>
+            </article>
+        </div>
+        <div class="fourth-seccion">
+            <article>
+                <h2>Grosor de Borde</h2>
+                <hr>
+                <br>
+                <p>
+                    El grosor del borde se define utilizando la propiedad border-width y puede ser en píxeles, em, rem, etc.
+                </p>
+                <br>
+                <figure>
+                    <img src="img/b-grosor.png" alt="Ejemplo de grosor en bordes.">
+                    <figcaption>Ejemplo de grosor en bordes.</figcaption>
+                </figure>
+                <br>
+            </article>
+        </div>
+        <div class="fifth-seccion">
+            <article>
+                <h2>Bordes Redondeados</h2>
+                <hr>
+                <br>
+                <p>
+                    Puedes hacer que los bordes tengan esquinas redondeadas utilizando la propiedad border-radius.
+                </p>
+                <br>
+                <figure>
+                    <img src="img/b-redondeado1.png" alt="Ejemplo de redondeado en bordes 1.">
+                    <figcaption>Ejemplo de redondeado en bordes 1.</figcaption>
+                </figure>
+                <br>
+                <p>
+                    También puedes especificar radios de esquina diferentes para cada esquina si lo deseas.
+                
+                </p>
+                <br>
+                <figure>
+                    <img src="img/b-redondeado2.png" alt="Ejemplo de redondeado en bordes 2.">
+                    <figcaption>Ejemplo de redondeado en bordes 2.</figcaption>
+                </figure>
+            </article>
+        </div>
+
+    </main>   
+    <footer>
+
+        <p><img src="img/copyright.png" alt="simbolo de copyright"> Creado por: 2020-030618  Joselyn Michelle Mendoza Molina</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.first-content{
+    width: 950px;
+}
+
+
+@media(max-width: 768px){
+    .first-content{
+        width: 550px;
+    }
+    aside{
+        width: 400px;
+    }
+}
+#banner{
+    padding: 0 50px;
+    background-image: url(https://vilmanunez.com/wp-content/uploads/2014/06/disen%CC%83o-para-no-disen%CC%83adores.png);
+    height: 55vh;
+    background-size: cover;
+    background-position: center;
+}

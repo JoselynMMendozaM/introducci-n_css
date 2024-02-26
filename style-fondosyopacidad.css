@@ -1,0 +1,18 @@
+@media(max-width: 768px){
+    .first-content{
+        width: 550px;
+    }
+    .first-content p{
+        width: 200px;
+    }
+    aside{
+        width: 500px;
+    }
+}
+#banner{
+    padding: 0 50px;
+    background-image: url(https://woobsing.com/wp-content/uploads/2017/02/blog-de-diseno-grafico-y-marketing-digital.png);
+    height: 55vh;
+    background-size: cover;
+    background-position: center;
+}

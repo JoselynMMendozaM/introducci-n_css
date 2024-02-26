@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTRUCTURA DE CSS</title>
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/0/09/Logotipo_de_el_INTECAP.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-estructura-css.css">
+</head>
+<body>
+    
+    <header class="header-container">
+        <section class="seccion-menu">
+            <a href="index.html" class="logo"><h2 >FULLSTACK DEV.</h2></a>
+    
+                <input type="checkbox" id="check">
+                <label for="check" class="mostrar-menu"> &#8801</label>
+    
+            <nav class="menu-container">    
+              
+                <a href="index.html">Inicio</a>
+                <a href="estructura-css.html">Estructura de CSS</a>
+                <a href="colores.html">Colores</a>
+                <a href="bordes.html">Bordes</a>
+                <a href="sombreada.html">Sombreada</a>
+                <a href="fondosyopacidad.html">Fodos y opacidad</a>
+                <label for="check" class="esconder-menu"> &#215</label>
+            </nav>
+        </section>
+
+        <section id="banner">
+            <div class="banner-container">
+                <h1><span>Estructura de CSS</span></h1>
+
+            </div>
+
+        </section>
+        
+    </header>
+    <main>
+        
+        <section class="first-seccion">
+            <article>
+                <br>
+                <p>En CSS, las reglas están compuestas por selectores, propiedades y valores.</p>
+                <br>
+                <ol type="a">
+                    <li>Selector:</li>
+                        <p>
+                            El selector apunta al elemento HTML al que se aplicarán los estilos. Puede ser un tipo de elemento, una clase, un identificador, etc.
+                        </p>
+                        <br>
+                        <figure>
+                            <img src="img/selector.png" alt="Estructura CSS: selector.">
+                            <figcaption>Estructura CSS: selector.</figcaption>
+                        </figure>
+                        <br>
+                    <li>Propiedad:</li>
+                        <p>
+                            La propiedad es el aspecto específico del estilo que se va a aplicar al elemento seleccionado.
+                        </p>
+                        <br>
+                        <figure>
+                            <img src="img/propiedad.png" alt="Estructura CSS: propiedad.">
+                            <figcaption>Estructura CSS: Propiedad.</figcaption>
+                        </figure>
+                        <br> 
+                    <li>Valor:</li>
+                        <p>
+                            El valor es la configuración específica que se asigna a la propiedad.
+                        </p>
+                        <br>
+                        <figure>
+                            <img src="img/valor.png" alt="Estructura CSS: valor.">
+                            <figcaption>Estructura CSS: Valor.</figcaption>
+                        </figure>
+                        <br>
+                        
+                        <p>Archivo styles.css:</p>
+                        <br> 
+
+                        <figure>
+                            <img src="img/externo2.png" alt="Forma de aplicar CSS:externa.">
+                            <figcaption>Forma 3: Externa, documento css.</figcaption>
+                        </figure>
+                </ol>
+            </article>
+            <aside class="logo-intecap">
+    
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Logotipo_de_el_INTECAP.png" alt="Escudo de INTECAP">
+            </aside>
+        </section>
+        <section class="second-seccion">
+            <article>
+                <h2>¿Qué es el modelo de cajas en CSS?</h2>
+                <hr>
+                <p>
+                    El modelo de cajas en CSS describe cómo se representan y se manejan los elementos en una página web. Cada elemento HTML es considerado como una caja rectangular con propiedades como margen, borde, relleno y contenido.
+                </p>
+                <br>
+                <figure>
+                    <img src="img/modelo de cajas.png" alt="Modelo de cajas en CSS.">
+                    <figcaption>Modelo de cajas.</figcaption>
+                </figure>
+            </article>
+        </section>
+        <div class="third-seccion">
+            <article>
+                <h2>Elementos de línea y elementos de bloque</h2>
+                <hr>
+               <ol type="a">
+                   <li>Elementos de Bloque:</li>
+                       <p>
+                        Son elementos que ocupan toda la anchura disponible y comienzan en una nueva línea.
+                       </p>
+                       <br>
+                       <figure>
+                           <img src="img/elementos en bloque.png" alt="Elementos en bloque en CSS">
+                           <figcaption>Ejemplo de elementos en bloque.</figcaption>
+                       </figure>
+                       <br>
+                   <li>Elementos de Línea:</li>
+                       <p>
+                        Son elementos que ocupan solo el ancho necesario y no inician una nueva línea.
+                       </p>
+                       <br>
+                       <figure>
+                           <img src="img/elementos en linea.png" alt="Elementos en línea en CSS.">
+                           <figcaption>Ejemplo de elementos en línea.</figcaption>
+                       </figure>
+                       <br> 
+               </ol>
+            </article>
+        </div>
+
+    </main>   
+    <footer>
+
+        <p><img src="img/copyright.png" alt="simbolo de copyright"> Creado por: 2020-030618  Joselyn Michelle Mendoza Molina</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.first-content{
+    width: 950px;
+}
+.content{
+    width: 900px;
+}
+
+
+@media(max-width: 768px){
+    .first-content{
+        width: 550px;
+    }
+    aside{
+        width: 400px;
+    }
+    figure{
+        width: 200px;
+    }
+}
+#banner{
+    padding: 0 50px;
+    background-image: url(https://s1.elespanol.com/2017/02/14/actualidad/actualidad_193743467_129779961_1706x960.jpg);
+    height: 55vh;
+    background-size: cover;
+    background-position: center;
+}
