@@ -5,10 +5,14 @@
 
 @media(max-width: 768px){
     .first-content{
-        width: 550px;
+        width: 410px;
     }
     aside{
-        width: 400px;
+        width: 200px;
+    }
+    .banner{
+        width: 100%;
+        
     }
 }
 #banner{
