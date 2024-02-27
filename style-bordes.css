@@ -13,8 +13,16 @@
 }
 #banner{
     padding: 0 50px;
-    background-image: url(https://vilmanunez.com/wp-content/uploads/2014/06/disen%CC%83o-para-no-disen%CC%83adores.png);
+    background-image: url(img/bordes.png);
     height: 55vh;
     background-size: cover;
     background-position: center;
 }
+.tipos-de-bordes,
+.linea,
+.third-seccion,
+.fourth-seccion,
+.fifth-seccion{
+    margin-left: 2%;
+    margin-right: 2%;
+} 

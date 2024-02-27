@@ -90,6 +90,35 @@ body {
     background-size: cover;
     background-position: center;
 }
+#banner-inicio::before{
+    content: '';
+    background: rgba(123, 34, 99, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 55vh;
+    left: 0;
+}
+.banner-container{
+    position: relative;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.banner-container h1{
+    font-size: 80px;
+    font-weight: 400;
+    padding:  10px 0px;
+    
+}
+
+.banner-container h1 span{
+    font-weight: 600;
+    
+}
 #banner::before{
     content: '';
     background: rgba(123, 34, 99, 0.6);
