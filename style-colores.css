@@ -8,11 +8,12 @@
 
 @media(max-width: 768px){
     .first-content{
-        width: 550px;
+        width: 410px;
     }
     aside{
-        width: 400px;
+        width: 200px;
     }
+    
 }
 #banner{
     padding: 0 50px;

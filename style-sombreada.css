@@ -8,13 +8,13 @@
 
 @media(max-width: 768px){
     .first-content{
-        width: 550px;
+        width: 10px;
     }
     aside{
-        width: 400px;
+        width: 10px;
     }
-    figure{
-        width: 200px;
+    img{
+        width: 10px;
     }
 }
 #banner{
