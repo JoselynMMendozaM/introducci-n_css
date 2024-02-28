@@ -1,26 +1,4 @@
-.first-content{
-    width: 950px;
-}
-.content{
-    width: 900px;
-}
-
-
-@media(max-width: 768px){
-    .first-content{
-        width: 10px;
-    }
-    aside{
-        width: 10px;
-    }
-    img{
-        width: 10px;
-    }
-}
 #banner{
-    padding: 0 50px;
-    background-image: url(img/sombras.png);
-    height: 55vh;
-    background-size: cover;
-    background-position: center;
+    background-image: url(img/fondo3.png);
+    
 }
