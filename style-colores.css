@@ -1,24 +1,3 @@
-.first-content{
-    width: 950px;
-}
-.second-seccion{
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-@media(max-width: 768px){
-    .first-content{
-        width: 410px;
-    }
-    aside{
-        width: 200px;
-    }
-    
-}
 #banner{
-    padding: 0 50px;
     background-image: url(img/color.png);
-    height: 55vh;
-    background-size: cover;
-    background-position: center;
 }
